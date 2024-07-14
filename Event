@@ -1,0 +1,13 @@
+<p id="one">
+    jeyasree
+</p>
+<button onclick="change()">
+    change
+</button>
+<script>
+    var h1=document.getElementById("one")
+    console.log(h1.textContent)
+    function change(){
+        h1.textContent="bye"
+    }
+</script>
