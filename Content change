@@ -1,0 +1,8 @@
+<p id="one">
+    Jeyasree
+</p>
+<script>
+    var t1=document.getElementById("one")
+    console.log(t1.textContent)
+    t1.textContent="bye"
+</script>
